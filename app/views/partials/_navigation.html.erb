@@ -1,0 +1,34 @@
+ <header>
+  <nav class="be-blue white large-padding">
+      <ul class="no-list row center-xs">
+         <li class="col-md pun">
+             <h3 class="no-margin" id="logo">Blog XD</h3>
+         </li>
+          <li class="col-md pun">
+              <%= link_to "Inicio", root_path %>
+          </li>
+          <li class="col-md pun">
+              Programacion
+          </li>
+          <li class="col-md pun">
+              Tecnologia
+          </li>
+          <li class="col-md pun">
+              Diseño
+          </li>
+          <% if user_signed_in? %>
+             <li class="col-md pun">
+                 <%= link_to "Cerrar Sesión", destroy_user_session_path, method: :delete %>
+             </li>
+             <%else%>
+             <li class="col-md pun">
+                 <%= link_to "Iniciar Sesión", new_user_session_path %>
+             </li>
+             <li class="col-md pun">
+                 <%= link_to "Crear Cuenta", new_user_registration_path %>
+             </li>
+
+          <%end%> 
+       </ul>
+   </nav>
+</header>

@@ -1,0 +1,71 @@
+html,body{
+	margin-top: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.btn{
+   background-color: inherit;
+   border: none;
+   outline: none;
+   text-transform: uppercase;
+   cursor: pointer;
+   font-size: 1.2em;
+   padding: 10px 12px;
+   border-radius: 8px;
+}
+
+a,a:visited{
+	color: inherit;
+	text-decoration: none;
+}
+
+.be-blue{
+	background-color: #454AA1 ;
+}
+
+.espacio, .field, .actions{
+    margin-top: 1em;
+}
+
+.white{
+	color: #ECF0F1;
+}
+
+.large-padding{
+	padding: 5px 5px;
+}
+
+.pun{
+	list-style:none;
+	font-weight: bold;
+}
+
+.no-margin{
+	margin: 0px;
+}
+
+#logo{
+	font-size: 1.2em;
+}
+
+label {
+  display: none;
+}
+
+.text-left{
+	text-align: left !important;
+}
+
+.form-control{
+	border:none;
+	border-bottom: 1px solid;
+	outline: none;
+	width: 100%;
+	display: block;
+	padding: 10px 0px;
+	font-size: 1.2em;
+}
+
+.red{
+	color: red !important;
+}
