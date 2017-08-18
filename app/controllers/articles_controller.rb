@@ -29,7 +29,6 @@ class ArticlesController < ApplicationController
   # POST /articles.json
   def create
     @article = current_user.articles.new(article_params)
-
     if @article.save
       redirect_to @article
     else
