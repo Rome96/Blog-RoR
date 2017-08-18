@@ -69,3 +69,18 @@ label {
 .red{
 	color: red !important;
 }
+
+.menu{
+	   margin-left: 0;
+		 margin-right: 0;
+     display: flex;
+
+	li{
+		flex:auto;
+		border-right: 1px solid rgba(#000,.2);
+		text-align: center;
+		&:last-child{
+			border-right: none
+		}
+	}
+}
